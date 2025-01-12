@@ -1,0 +1,15 @@
+<main class="main">
+  <h1>Daniel Erazo Biography</h1>
+  <p>It the best man on earth</p>
+  <article class="input-section">
+    <label for="name">Name</label>
+    <input type="text" id="name" [formControl]="name" />
+
+    <label for="email">Email</label>
+    <input type="text" id="email" [formControl]="email" />
+
+    <button (click)="save()">Save entity</button>
+    <button (click)="computeIndexedDbSize()">Compute size</button>
+    <button (click)="deleteObjectStore()">Delete object store</button>
+  </article>
+</main>
